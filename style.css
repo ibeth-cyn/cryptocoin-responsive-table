@@ -2,6 +2,11 @@
 /*Make responsive*/
 /*Add tiny round edges*/
 /*Add small shadow*/
+/*Define fallback and recurring styles*/
+/*min-width over max-width*/
+/*style for mobile first and build a destop style over it*/
+/*Use css grids*/
+/*@support tag- if necessary*/
 /*https://learn.shayhowe.com/advanced-html-css/*/
 
 body {
@@ -9,6 +14,11 @@ body {
     font-size: 15px;
     line-height: 1.4;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+}
+
+table{
+    display: flex;
+    justify-content: center;
 }
 
 table tr:nth-child(even){
