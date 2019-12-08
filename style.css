@@ -4,9 +4,11 @@
 /*Add small shadow*/
 /*Define fallback and recurring styles*/
 /*min-width over max-width*/
-/*style for mobile first and build a destop style over it*/
+/*style for mobile first and build a desktop style over it*/
 /*Use css grids*/
 /*@support tag- if necessary*/
+/*Refer to this for styling tips - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables*/
+/*CSS Tricks resource - https://css-tricks.com/complete-guide-table-element/ */
 /*https://learn.shayhowe.com/advanced-html-css/*/
 
 body {
@@ -16,12 +18,11 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
 }
 
-table{
+/* main{
     display: flex;
     justify-content: center;
-}
+} */
 
-table tr:nth-child(even){
-    background-color: rgb(220,220,220);
+tbody tr:nth-child(even) {
+  background-color: rgb(220,220,220);
 }
-  
