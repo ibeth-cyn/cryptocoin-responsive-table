@@ -5,10 +5,7 @@
  *    Get 10 coins per "page"
  */
 
-/*Get API and connect to it https://api.coinlore.com/api/tickers/?start=100&limit=100 ** /
-/**/
-
- let apiKey =  "https://api.coinlore.com/api/tickers/?start=10&limit=10";
+ let apiKey = "https://api.coinlore.com/api/tickers/?start=10&limit=10";
  let coinsArray;
  
  $.getJSON(
@@ -27,7 +24,7 @@ function appendDataToBody(data){
         /*check out pagination*/
         const tRows = document.createElement("tr");
 
-        const td1 = document.createElement("td").;
+        const td1 = document.createElement("td");
         const td2 = document.createElement("td");
         const td3 = document.createElement("td");
         const td4 = document.createElement("td");
