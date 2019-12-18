@@ -5,10 +5,8 @@
  *    Get 10 coins per "page"
  */
 
- /*Get API and connect to it - https://api.coinlore.com/api/tickers/?start=100&limit=100 ✅* /
- /*Create tr and add to tbody✅* /
- /*Create td and add to tr ✅*/
- /*Limit to 10 coins per page*/
+/*Get API and connect to it https://api.coinlore.com/api/tickers/?start=100&limit=100 ** /
+/**/
 
  let apiKey =  "https://api.coinlore.com/api/tickers/?start=10&limit=10";
  let coinsArray;
@@ -23,9 +21,13 @@
 function appendDataToBody(data){
     const tBody = document.getElementsByTagName("tbody")[0]; 
     for(let i = 0; i < coinsArray.length; i++){
+        /*if button is clicked*/
+        /*return limited values*/
+        /*https://www.w3schools.com/howto/howto_js_form_steps.asp*/
+        /*check out pagination*/
         const tRows = document.createElement("tr");
 
-        const td1 = document.createElement("td");
+        const td1 = document.createElement("td").;
         const td2 = document.createElement("td");
         const td3 = document.createElement("td");
         const td4 = document.createElement("td");
